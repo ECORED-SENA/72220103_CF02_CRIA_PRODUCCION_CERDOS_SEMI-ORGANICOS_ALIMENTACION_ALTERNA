@@ -230,13 +230,110 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Aturdimiento',
+      significado:
+        'procedimiento que provoca pérdida inmediata de conciencia antes del sacrificio.',
+    },
+    {
+      termino: 'Bienestar animal',
+      significado:
+        'condiciones que garantizan salud, confort y trato humanitario de los animales.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado:
+        'medidas para prevenir el ingreso, la propagación y controlar enfermedades.',
+    },
+    {
+      termino: 'Buenas prácticas de manufactura (BPM)',
+      significado:
+        'procedimientos que garantizan higiene e inocuidad durante el beneficio porcino.',
+    },
+    {
+      termino: 'Buenas prácticas porcícolas (BPP)',
+      significado:
+        'acciones para producir porcinos sanos, seguros y de calidad.',
+    },
+    {
+      termino: 'Canal',
+      significado:
+        'cuerpo del porcino después del sacrificio, evisceración y faenado.',
+    },
+    {
+      termino: 'Contaminación cruzada',
+      significado:
+        'transferencia de contaminantes entre alimentos, superficies, equipos o personas.',
+    },
+    {
+      termino: 'Evisceración',
+      significado:
+        'extracción higiénica de las vísceras durante el beneficio porcino.',
+    },
+    {
+      termino: 'Faenado',
+      significado:
+        'operaciones posteriores al sacrificio para obtener una canal apta.',
+    },
+    {
+      termino: 'Inocuidad alimentaria',
+      significado:
+        'garantía de que los alimentos no causarán daño al consumidor.',
+    },
+    {
+      termino: 'Inspección ante mortem',
+      significado:
+        'evaluación sanitaria realizada antes del sacrificio del porcino.',
+    },
+    {
+      termino: 'Inspección post mortem',
+      significado:
+        'examen sanitario de la canal y las vísceras después del beneficio.',
+    },
+    {
+      termino: 'Trazabilidad',
+      significado:
+        'capacidad de identificar y seguir el historial del animal y la carne.',
+    },
+    {
+      termino: 'Residuos orgánicos',
+      significado:
+        'desechos biodegradables generados durante el beneficio de porcinos.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'producción responsable que protege los recursos naturales y el bienestar animal.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Congreso de Colombia. (2016). Ley 1774 de 2016. Por medio de la cual se modifican el Código Civil, la Ley 84 de 1989, el Código Penal y el Código de Procedimiento Penal.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario (ICA). (2020). Resolución 76509 de 2020. Requisitos para obtener la certificación en Buenas Prácticas Ganaderas (BPG) en la producción porcina.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2015). Decreto 1076 de 2015. Decreto Único Reglamentario del Sector Ambiente y Desarrollo Sostenible.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible. (2015). Resolución 631 de 2015. Parámetros y valores límites máximos permisibles en los vertimientos puntuales a cuerpos de aguas superficiales y a los sistemas de alcantarillado público.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de la Protección Social. (2007). Decreto 1500 de 2007. Sistema oficial de inspección, vigilancia y control de la carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2013). Resolución 2674 de 2013. Requisitos sanitarios para la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos.',
       link: '',
     },
   ],
@@ -246,11 +343,12 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Líder del Ecosistema',
+          cargo:
+            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de línea de producción Huila',
           centro: 'Dirección General',
         },
@@ -260,9 +358,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '',
-          cargo: '',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martínez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -270,20 +375,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Cielo Damaris Angulo Rodríguez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: '',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Carlos Eduardo Garavito Parada',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -293,13 +428,25 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Ricardo Oliveros Zambrano ',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
