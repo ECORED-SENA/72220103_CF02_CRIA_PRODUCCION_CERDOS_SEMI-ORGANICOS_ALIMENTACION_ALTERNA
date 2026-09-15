@@ -3,14 +3,20 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    top: 50%
+    left: 5%
+    width: 18%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 10%
+    top: 25%
+    right: 15%
+    width: 20%
+  &-3
+    animation: float2 2s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 18%
     width: 20%
 
 @keyframes float1
@@ -18,14 +24,36 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-.banner-principal__img
-  padding-bottom: 0 !important
+
+.banner-principal .tarjeta
+  background-position: left 50% !important
+  @media screen and (max-width: 1200px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+  @media screen and (max-width: 768px)
+    background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principal-int.png") !important
+
 .banner-principal__row .banner-principal__img
-  width: 33%
+  width: 420px !important
+  @media screen and (max-width: 1200px)
+    width: 380px !important
+  @media screen and (min-width: 1400px)
+    width: 470px !important
+
+.banner-principal__row
+  padding: 0rem 2.5rem 0rem 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
 
 /**************************************************************/
 /*Media Queries*/  
@@ -52,3 +80,272 @@
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em !important
+
+/// fondos
+.bg-slider
+  background-image: url("../assets/curso/temas/bg/img1.jpg") !important
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3.2rem !important
+  padding: 3rem 0rem
+
+.bg-1
+  background-image: url("../assets/curso/temas/bg/img2.png")
+  background-repeat: no-repeat
+  background-size: 1145px
+  margin-inline: -3.2rem !important
+  @media screen and (min-width: 1400px)
+    background-size: 1325px
+
+
+
+
+
+
+
+
+
+
+
+
+
+/// intro
+.caja-1
+  background-color: #E8F5F6
+  padding: 1rem 2rem
+  @media screen and (max-width: 1200px)
+    padding: 2rem
+
+/// tema 1
+.caja-2
+  background-color: #D3ECEE
+  padding-right: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    img
+      width: 700px !important
+      margin: 0rem !important
+      padding: 0rem !important
+.caja-2_p
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem 2rem
+
+.titulo-tercer-nivel
+  width: fit-content
+  max-width: 100%
+  position: relative
+  display: inline-flex
+  align-items: center
+  background-color: $color-acento-contenido
+  border-radius: 5px
+  padding-right: 10px
+  padding-left: 52px
+  min-height: 48px
+  @media screen and (max-width: $bp-min-md)
+    padding-left: 10px
+  &__icon
+    position: absolute
+    left: 10px
+    top: 45%
+    transform: translateY(-50%)
+    width: 65px
+    max-width: 65px
+    height: auto
+    @media screen and (max-width: $bp-min-md)
+      display: none
+  &__text
+    margin: 0
+    margin: 0 15px 0 35px
+    white-space: normal
+    word-break: break-word
+
+.slyder-a__item
+  padding: 4rem 3rem 1rem 4rem !important
+.slyder-a__tipo-b
+  padding: 0rem 2rem 2rem 2rem !important
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: $color-acento-botones
+.slyder-a__bullets__item 
+  background-color: #B8C4B3 !important
+  border: 0px
+.slyder-a__bullets__item--active
+  background-color: #476B44 !important
+.slyder-a__bullets__item
+  @media screen and (max-width: 768px)
+    width: 10px !important
+    height: 10px !important
+    margin: 0.2rem
+.ajuste-slider
+  border-radius: 20px
+  background-color: white
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4)
+  background: rgba(255, 255, 255, 0.5)
+  backdrop-filter: blur(1rem)
+  -webkit-backdrop-filter: blur(1rem)
+  border: 1px solid rgba(255, 255, 255, 0.4)
+
+.acordion__accion__btn--a
+  background-color: $color-acento-botones
+.tarjeta--azul
+  position: relative
+  background-color: #C1D6BF
+  width: 100%
+  p
+    padding-left: 4.3rem
+  @media screen and (max-width: 1200px)
+    width: 100%
+    img
+      padding-left: 3.5rem
+.acordion__activo
+  background-color: #FFF4DA
+  h3
+    color: $color-sistema-texto !important
+.ajuste-cajaAcordion
+  padding: 0rem 1rem 0rem 0rem
+  ul
+    padding: 0rem 3.3rem
+    @media screen and (max-width: 1200px)
+      padding: 0rem 2.3rem
+  ol
+    padding: 0rem 4.1rem
+.ajuste-tabla-acordion
+  padding-left: 4.3rem
+  @media screen and (max-width: 1200px)
+    padding-left: 4.3rem
+.ajuste-vineta
+  ul
+    padding: 0rem 3.3rem
+
+.tarjeta.color-acento-botones
+  background-color: white
+  padding: 4rem 2.5rem !important
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  h4
+    color: $color-sistema-texto
+  p
+    color: $color-sistema-texto
+  i
+    color: $color-sistema-texto
+  b
+    color: $color-sistema-texto
+  li
+    color: $color-sistema-texto
+.horizontal-scroll__wrapper
+  padding: 1rem 0.5rem
+.fa-chevron-right
+  color: $color-acento-botones
+.fa-chevron-left
+  color: $color-acento-botones
+.estilo-text
+  background-color: white
+  text-align: center
+  padding: 0.3rem
+.slyder-f__btn
+  @media screen and (max-width: 576px)
+    width: 100% !important
+    padding: 0rem !important
+.slyder-f__btn i
+  font-size: 1.3rem
+  display: flex
+  justify-content: center
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+  border-radius: 100% 
+  padding: 1rem 1.7rem 
+  @media screen and (max-width: 576px)
+    font-size: 1rem !important
+    padding: 0.5rem 1rem !important
+  @media screen and (max-width: 1200px)
+    font-size: 1.2rem
+    padding: 1rem 1.6rem
+  @media screen and (min-width: 1400px)
+    font-size: 1.2rem !important
+    padding: 1rem 1.6rem !important
+.slyder-f__btn i:hover
+  background-color: $color-acento-botones
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3)
+  border: 1px solid white
+  transition: opacity 0.3s ease-in-outbox-shadow 0.3s ease-in-out
+
+.estilo___ul
+  li
+    margin-left: -1rem
+.fa-check-circle
+  color: #7E6424 !important
+
+.tabs-c__tab--active
+  font-weight: bold
+.tabs-c__content-item
+  background-color: #D3ECEE
+  padding: 2rem
+.tabs-c
+  border-bottom: none !important
+
+.caja-3
+  background-color: #D3ECEE
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3)
+  h4
+    padding: 1rem 2rem 1rem 2rem
+.caja-3_p
+    padding: 0rem 2rem 3rem 2rem
+
+.color-1
+  background-color: #EEF4EE
+
+.caja-4
+  background-color: white
+  padding: 2rem 3rem
+  border-radius: 14px 
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4)
+  @media screen and (max-width: 1200px)
+    padding: 2rem
+
+/// tema 2
+.caja-5
+  background-color: #D3ECEE
+  padding-left: 2rem
+  @media screen and (max-width: 1200px)
+    padding: 0rem
+    img
+      width: 700px !important
+      margin: 0rem !important
+      padding: 0rem !important
+
+.caja-6
+  background-color: #EEF4EE
+  padding: 1rem 1.5rem
+  @media screen and (max-width: 1200px)
+    padding: 2rem
+
+/// tema 3
+.tarjeta.color-acento-contenido
+  background-color: #486769
+  @media screen and (max-width:  1200px)
+    border-radius: 20px !important
+
+.tarjeta.color-primario
+  background-color: #FFE9B5
+  @media screen and (max-width: 1200px)
+    border-radius: 20px !important
+
+/// ajustes
+.ajuste-1
+  padding: 0.5rem 2rem !important
+  @media screen and (max-width: 1200px)
+    padding: 2rem !important
+  @media screen and (min-width: 1400px)
+    padding: 2.5rem 2rem !important
+
+.ajuste-2
+  padding: 0.5rem 2rem !important
+  @media screen and (max-width: 1200px)
+    padding: 2rem !important
+  @media screen and (min-width: 1400px)
+    padding: 5.2rem 2rem !important
+
+.ajuste-3
+  padding: 0.5rem 2rem !important
+  @media screen and (max-width: 1200px)
+    padding: 2rem !important
+  @media screen and (min-width: 1400px)
+    padding: 4rem 2rem !important
