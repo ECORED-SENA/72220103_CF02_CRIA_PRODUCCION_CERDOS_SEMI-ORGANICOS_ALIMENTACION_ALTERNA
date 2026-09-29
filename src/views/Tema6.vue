@@ -104,19 +104,19 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Descarga:] Debe realizarse en condiciones que eviten golpes y caídas, utilizando procedimientos que faciliten el desplazamiento seguro de los porcinos.
+                | #[b Descarga:] debe realizarse en condiciones que eviten golpes y caídas, utilizando procedimientos que faciliten el desplazamiento seguro de los porcinos.
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Conducción:] Debe efectuarse de manera tranquila, reduciendo factores que puedan generar miedo, aglomeraciones, estrés o lesiones.
+                | #[b Conducción:] debe efectuarse de manera tranquila, reduciendo factores que puedan generar miedo, aglomeraciones, estrés o lesiones.
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Insensibilización:] Debe realizarse mediante métodos autorizados y bajo los parámetros técnicos establecidos para garantizar la pérdida de la conciencia antes del sacrificio.
+                | #[b Insensibilización:] debe realizarse mediante métodos autorizados y bajo los parámetros técnicos establecidos para garantizar la pérdida de la conciencia antes del sacrificio.
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Sacrificio:] Debe ejecutarse inmediatamente después del aturdimiento para evitar que el animal recupere la conciencia durante el procedimiento.
+                | #[b Sacrificio:] debe ejecutarse inmediatamente después del aturdimiento para evitar que el animal recupere la conciencia durante el procedimiento.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t6/img10.png', alt='' style="width: 500px").m-auto
@@ -146,7 +146,7 @@
                 figure.mb-4(data-aos="fade-right")
                   img(src='@/assets/curso/temas/t6/img12.svg', alt="" style="max-width: 90px").m-auto
               h4.text-center Vocalizaciones
-              p.mb-0.text-center Pueden relacionarse con situaciones de estrés y permiten identificar condiciones de manejo que requieren atención o corrección.
+              p.mb-0.text-center Pueden relacionarse con situaciones de estrés y permitir identificar condiciones de manejo que requieren atención o corrección.
         .col-xl-3.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
           .caja-4.h-100
             .row.justify-content-center.mb-3
@@ -166,7 +166,7 @@
       p.mb-5 El seguimiento sistemático de estos indicadores aporta información para ajustar las prácticas de manejo y fortalecer el bienestar animal.
       Separador
       #t_6_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 6.2 Bioseguridad
+        h2 6.2 Normatividad Vigente
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-1.mb-3(data-aos="fade-right")
@@ -312,7 +312,7 @@
       p.mb-0 El cumplimiento articulado de estas disposiciones permite integrar los componentes sanitarios, ambientales y de bienestar animal dentro del proceso de beneficio porcino.
       Separador
       #t_6_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 6.3 Normatividad vigente
+        h2 6.3 Responsabilidades del operario
       .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t6/img27.jpg')})` }")

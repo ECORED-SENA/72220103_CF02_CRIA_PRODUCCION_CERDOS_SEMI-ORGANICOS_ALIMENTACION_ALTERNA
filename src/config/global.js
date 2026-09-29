@@ -66,7 +66,7 @@ export default {
           },
           {
             numero: '1.6',
-            titulo: 'Inspección ante mortem',
+            titulo: 'Inspección  ante mortem',
             hash: 't_1_6',
           },
           {
@@ -177,12 +177,12 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Bioseguridad',
+            titulo: 'Normatividad vigente',
             hash: 't_6_2',
           },
           {
             numero: '6.3',
-            titulo: 'Normatividad vigente',
+            titulo: 'Responsabilidades del operario',
             hash: 't_6_3',
           },
         ],
@@ -280,7 +280,7 @@ export default {
         'garantía de que los alimentos no causarán daño al consumidor.',
     },
     {
-      termino: 'Inspección ante mortem',
+      termino: 'Inspección #[i ante mortem]',
       significado:
         'evaluación sanitaria realizada antes del sacrificio del porcino.',
     },
