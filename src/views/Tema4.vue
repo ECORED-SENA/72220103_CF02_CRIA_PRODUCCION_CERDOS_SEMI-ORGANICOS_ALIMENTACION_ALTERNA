@@ -329,7 +329,7 @@
                 .col-8
                   img(src='@/assets/curso/temas/t4/img31.svg' style="max-width: 90px").m-auto
               h4.mb-3.estilo-text Inspecciones sanitarias
-              p.mb-0.text-center Documentan los resultados de las inspecciones ante mortem y #[i post mortem], así como los controles realizadas durante el proceso de beneficio.
+              p.mb-0.text-center Documentan los resultados de las inspecciones #[i ante mortem] y #[i post mortem], así como los controles realizadas durante el proceso de beneficio.
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8

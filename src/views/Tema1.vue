@@ -30,7 +30,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img4.jpg')})` }")
         .bloque-texto-g__texto.p-4
-          p Una recepción adecuada mejora la calidad de la carne, fortalece la bioseguridad y facilita el control sanitario del establecimiento. Además, reduce las pérdidas económicas ocasionadas por decomisos, lesiones o contaminación de las canales.
+          p Una recepción adecuada mejora la calidad de la carne, fortalece la bioseguridad y facilita el control sanitario del establecimiento. Además, reduce las pérdidas económicas ocasionadas por decomisos, lesiones o contaminación de los canales.
       p.mb-5 Las #[b Buenas Prácticas Porcícolas (BPP)] establecen que este proceso debe desarrollarse mediante procedimientos estandarizados que garanticen el bienestar animal y la trazabilidad. La importancia de esta etapa se relaciona con los siguientes aspectos:
       .bg-slider.mb-5
         .px-5
@@ -422,12 +422,12 @@
       p.mb-0 El cumplimiento de estas condiciones contribuye a proteger a los animales durante su movilización y disminuye los factores que pueden afectar su bienestar y la calidad posterior de la carne.
       Separador
       #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 1.6 Inspección ante mortem
-      p.mb-5 A continuación, se presenta un video sobre la inspección ante mortem en porcinos, en el que se describen los principales aspectos evaluados para determinar su estado sanitario, identificar posibles alteraciones y garantizar condiciones adecuadas de bienestar e inocuidad antes del proceso de beneficio.
+        h2 1.6 Inspección <i>ante mortem</i>
+      p.mb-5 A continuación, se presenta un video sobre la inspección <i>ante mortem</i> en porcinos, en el que se describen los principales aspectos evaluados para determinar su estado sanitario, identificar posibles alteraciones y garantizar condiciones adecuadas de bienestar e inocuidad antes del proceso de beneficio.
       figure(data-aos="zoom-in").mb-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Inspección ante mortem y evaluación sanitaria de los porcinos
+        figcaption Video. Inspección <i>ante mortem</i> y evaluación sanitaria de los porcinos
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Identificación de animales no aptos
@@ -493,7 +493,7 @@
             .row(titulo="Bienestar animal").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 El porcino no debe presentar lesiones ni signos de estrés severo que comprometan sus condiciones para el beneficio.
             .row(titulo="Inspección veterinaria").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 El animal debe contar con la aprobación oficial emitida como resultado de la inspección ante mortem correspondiente.
+              p.mb-3 El animal debe contar con la aprobación oficial emitida como resultado de la inspección <i>ante mortem</i> correspondiente.
       p.mb-0 El cumplimiento conjunto de estos criterios permite autorizar el ingreso de los porcinos al beneficio y mantener el control sanitario previo al sacrificio.
       Separador
       #t_1_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -726,7 +726,7 @@
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Limpieza y desinfección
-      p.mb-5 La #[b limpieza y desinfección] de corrales, rampas, pasillos, equipos y vehículos es fundamental para disminuir la presencia de microorganismos y prevenir la contaminación cruzada. Estas actividades deben realizarse de forma periódica mediante productos autorizados y procedimientos establecidos.
+      p.mb-5 La #[b limpieza y desinfección] de corrales, rampas, pasillos, equipos y vehículos son fundamentales para disminuir la presencia de microorganismos y prevenir la contaminación cruzada. Estas actividades deben realizarse de forma periódica mediante productos autorizados y procedimientos establecidos.
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-1.color-1.ajuste-2(data-aos="fade-right").mb-3

@@ -100,7 +100,7 @@
             .row(titulo="Higiene del proceso").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Disminuye la contaminación microbiológica y contribuye a proteger la salud pública. Su control requiere aplicar las BPM y mantener procedimientos permanentes de limpieza.
             .row(titulo="Inspección veterinaria").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Permite detectar enfermedades y lesiones que puedan comprometer la aptitud de la carne. Comprende la inspección ante mortem y post mortem para prevenir la comercialización de carne no apta.
+              p.mb-3 Permite detectar enfermedades y lesiones que puedan comprometer la aptitud de la carne. Comprende la inspección #[i ante mortem] y #[i post mortem] para prevenir la comercialización de carne no apta.
             .row(titulo="Refrigeración").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Conserva la calidad y prolonga la vida útil de la carne al limitar el desarrollo de microorganismos. Para ello, es indispensable mantener la cadena de frío.
             .row(titulo="Personal capacitado").ajuste-cajaAcordion.ajuste-vineta
@@ -112,7 +112,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-1(data-aos="fade-right").mb-3
-            p.mb-0 El beneficio porcino comprende una #[b secuencia de operaciones técnicas] que permiten obtener una canal inocua y de alta calidad. Cada etapa debe desarrollarse mediante procedimientos estandarizados que garanticen el bienestar animal, la higiene del proceso y el cumplimiento de la normatividad sanitaria vigente.
+            p.mb-0 El beneficio porcino comprende una #[b secuencia de operaciones técnicas] que permiten obtener una canal inocuo y de alta calidad. Cada etapa debe desarrollarse mediante procedimientos estandarizados que garanticen el bienestar animal, la higiene del proceso y el cumplimiento de la normatividad sanitaria vigente.
           p.mb-0 Debido a que estas operaciones siguen un orden definido dentro del proceso, se desarrollan a continuación de acuerdo con su secuencia técnica.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
@@ -299,7 +299,7 @@
             figure
               img(src='@/assets/curso/temas/t1/img30.svg', alt='' style="width: 85px").m-auto
           .col-xl.col-md-10
-            p.mb-0 La correcta extracción y evaluación de las vísceras es fundamental para prevenir la contaminación y respaldar la decisión sanitaria sobre la canal.
+            p.mb-0 La correcta extracción y evaluación de las vísceras son fundamentales para prevenir la contaminación y respaldar la decisión sanitaria sobre la canal.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 División de la canal
@@ -460,7 +460,7 @@
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Registros sanitarios
-      p.mb-5 Los resultados de la inspección post mortem deben registrarse como parte del sistema de trazabilidad de la planta. Estos registros permiten documentar los hallazgos, los decomisos realizados y las decisiones sanitarias adoptadas. La información registrada facilita el control oficial, la vigilancia epidemiológica y el cumplimiento de la normatividad sanitaria. Los principales registros comprenden:
+      p.mb-5 Los resultados de la inspección #[i post mortem] deben registrarse como parte del sistema de trazabilidad de la planta. Estos registros permiten documentar los hallazgos, los decomisos realizados y las decisiones sanitarias adoptadas. La información registrada facilita el control oficial, la vigilancia epidemiológica y el cumplimiento de la normatividad sanitaria. Los principales registros comprenden:
       .row.align-items-center.mb-5
         .col-xl-auto(data-aos="fade-right")
           figure.d-none.d-xl-block
