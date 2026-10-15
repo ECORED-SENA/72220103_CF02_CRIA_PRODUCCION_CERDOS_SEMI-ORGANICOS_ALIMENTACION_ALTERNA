@@ -426,7 +426,7 @@
       p.mb-5 A continuación, se presenta un video sobre la inspección <i>ante mortem</i> en porcinos, en el que se describen los principales aspectos evaluados para determinar su estado sanitario, identificar posibles alteraciones y garantizar condiciones adecuadas de bienestar e inocuidad antes del proceso de beneficio.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/3mHBAcLFSGE?si=NzjiKuqDm6Xv8oqp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Inspección <i>ante mortem</i> y evaluación sanitaria de los porcinos
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
