@@ -55,10 +55,24 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Residuos orgánicos
       p.mb-5 A continuación, se presenta un pódcast sobre el manejo de los residuos orgánicos generados durante el beneficio porcino, en el que se describen las condiciones para su recolección, clasificación, aprovechamiento y disposición, con el propósito de prevenir riesgos sanitarios y mantener condiciones adecuadas de higiene.
-      figure(data-aos="zoom-in").mb-5
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Manejo de residuos orgánicos en el beneficio porcino
+      .row.align-items-center.m-0.mb-5
+        .col-xl
+          .row.align-items-center.justify-content-center.caja-7(data-aos="zoom-in")
+            .col-auto.mb-4.mb-lg-0
+              figure(data-aos="fade-right")
+                img(src="@/assets/curso/temas/t5/img28.svg" style="max-width: 220px").m-auto
+            .col
+              h4.mb-4 Pódcast
+              TarjetaAudio.color-acento-contenido.mb-4(
+                  texto="Protocolos de limpieza, desinfección y vacío sanitario en instalaciones avícolas"
+                  :audio="audio1"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                )
+                  .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+        .col-xl-auto.d-none.d-xl-block
+          figure(data-aos="fade-left")
+            img(src="@/assets/curso/temas/t6/img33.png" style="max-width: 510px").m-auto
+
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Residuos líquidos
