@@ -374,10 +374,12 @@
 </template>
 
 <script>
+import audio1 from '@/assets/curso/podcast/manejo.mp3'
 export default {
   name: 'Tema5',
   data: () => ({
-    // variables de vue
+    audio1,
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {
