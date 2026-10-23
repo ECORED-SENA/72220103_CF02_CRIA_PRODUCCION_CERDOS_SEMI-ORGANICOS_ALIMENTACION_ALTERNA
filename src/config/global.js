@@ -280,12 +280,12 @@ export default {
         'garantía de que los alimentos no causarán daño al consumidor.',
     },
     {
-      termino: 'Inspección #[i ante mortem]',
+      termino: 'Inspección <i> ante mortem </i>',
       significado:
         'evaluación sanitaria realizada antes del sacrificio del porcino.',
     },
     {
-      termino: 'Inspección post mortem',
+      termino: 'Inspección <i>post mortem</i>',
       significado:
         'examen sanitario de la canal y las vísceras después del beneficio.',
     },
