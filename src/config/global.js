@@ -214,7 +214,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/72220103_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -347,18 +347,13 @@ export default {
             'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de línea de producción Huila',
-          centro: 'Dirección General',
-        },
       ],
     },
     {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Joinner Enrique Osorio Martínez',
+          nombre: 'Eliana Audrey Manchola Pérez',
           cargo: 'Experto temático',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
