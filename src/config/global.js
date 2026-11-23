@@ -250,9 +250,9 @@ export default {
         'procedimientos que garantizan higiene e inocuidad durante el beneficio porcino.',
     },
     {
-      termino: 'Buenas prácticas porcícolas (BPP)',
+      termino: 'Buenas Prácticas Ganaderas (BPG) en la producción porcina',
       significado:
-        'acciones para producir porcinos sanos, seguros y de calidad.',
+        'prácticas y procedimientos orientados a proteger la sanidad, el bienestar animal y la inocuidad durante la producción primaria.',
     },
     {
       termino: 'Canal',
@@ -344,7 +344,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

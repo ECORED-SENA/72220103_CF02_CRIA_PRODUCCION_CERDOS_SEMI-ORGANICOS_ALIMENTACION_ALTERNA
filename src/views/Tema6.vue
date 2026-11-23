@@ -182,8 +182,8 @@
             img(src='@/assets/curso/temas/t6/img15.png', alt='' style="width: 500px").m-auto
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img3.png')
-        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Buenas Prácticas Porcícolas (Resolución ICA 76509 de 2020)
-      p.mb-5 La #[b Resolución ICA 76509 de 2020] establece los requisitos para la implementación de las #[b Buenas Prácticas Porcícolas], orientadas a fortalecer la bioseguridad, el bienestar animal, la trazabilidad y la inocuidad de la producción. Su aplicación favorece la producción responsable y la calidad sanitaria de los animales destinados al beneficio. Entre los componentes señalados se encuentran:
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Buenas Prácticas Ganaderas (Resolución ICA 76509 de 2020)
+      p.mb-5 La #[b Resolución ICA 76509 de 2020] establece los requisitos para la implementación de las #[b Buenas Prácticas Ganaderas], orientadas a fortalecer la bioseguridad, el bienestar animal, la trazabilidad y la inocuidad de la producción. Su aplicación favorece la producción responsable y la calidad sanitaria de los animales destinados al beneficio. Entre los componentes señalados se encuentran:
       TabsC.color-acento-contenido.mb-5(data-aos="zoom-in")
         .py-3.py-md-4(titulo="Bioseguridad")
           .row.justify-content-center.align-items-center
@@ -290,16 +290,16 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t6/img25.png", alt="" style="width: 300px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Decreto 1500 de 2007").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Regula aspectos relacionados con el sistema oficial de inspección, vigilancia y control de carnes dentro del marco sanitario aplicable.
             .row(titulo="Resolución ICA 76509 de 2020").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Establece requisitos asociados con las Buenas Prácticas Porcícolas y los componentes de sanidad, bioseguridad, trazabilidad y bienestar animal.
+              p.mb-3 Establece requisitos asociados con las Buenas Prácticas Ganaderas y los componentes de sanidad, bioseguridad, trazabilidad y bienestar animal.
             .row(titulo="Resolución 2674 de 2013").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Incluye disposiciones relacionadas con las Buenas Prácticas de Manufactura y las condiciones sanitarias aplicables al manejo de alimentos.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Ley 1774 de 2016").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Establece disposiciones relacionadas con la protección y el bienestar animal y reconoce a los animales como seres sintientes.
             .row(titulo="Decreto 1076 de 2015").ajuste-cajaAcordion.ajuste-vineta
@@ -408,11 +408,11 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t6/img25.png", alt="" style="width: 350px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Uso correcto de EPP").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Contribuye a proteger al trabajador frente a los riesgos asociados con las actividades desarrolladas durante el proceso de beneficio.
             .row(titulo="Aplicación de BPM").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Favorece el mantenimiento de condiciones higiénicas y contribuye a obtener carne inocua y segura para el consumo.
+              p.mb-3 Favorece el mantenimiento de condiciones higiénicas y contribuye a mantener la inocuidad de la carne destinada al consumo.
             .row(titulo="Prevención de contaminación cruzada").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Reduce la transferencia de contaminantes entre superficies, equipos, áreas y productos, protegiendo la calidad sanitaria de la carne.
             .row(titulo="Cumplimiento de protocolos").ajuste-cajaAcordion.ajuste-vineta

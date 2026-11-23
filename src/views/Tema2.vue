@@ -94,7 +94,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img10.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Bienestar animal").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Reduce el estrés y favorece un pH muscular adecuado. Un manejo deficiente puede ocasionar carne PSE o DFD, hematomas y pérdidas económicas; por ello, se requiere un manejo tranquilo y un aturdimiento adecuado.
             .row(titulo="Higiene del proceso").ajuste-cajaAcordion.ajuste-vineta
@@ -466,7 +466,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img31.png", alt="" style="width: 350px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Identificación del lote").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Permite registrar la procedencia de los animales y relacionar los resultados de la inspección con el lote correspondiente.
             .row(titulo="Hallazgos sanitarios").ajuste-cajaAcordion.ajuste-vineta

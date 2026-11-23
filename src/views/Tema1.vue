@@ -149,7 +149,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img18.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Estrés").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Puede generar alteraciones en la carne, como PSE o DFD, que afectan sus características y disminuyen su calidad.
             .row(titulo="Golpes").ajuste-cajaAcordion.ajuste-vineta
@@ -483,7 +483,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img52.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Estado sanitario").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 El animal debe encontrarse clínicamente sano y no presentar condiciones sanitarias que impidan su ingreso al proceso de beneficio.
             .row(titulo="Documentación").ajuste-cajaAcordion.ajuste-vineta
@@ -643,7 +643,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img18.png", alt="" style="width: 350px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Manejo tranquilo y ordenado").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Es una práctica permitida que favorece la conducción de los porcinos sin generar miedo, estrés o lesiones innecesarias.
             .row(titulo="Uso de paneles de manejo").ajuste-cajaAcordion.ajuste-vineta
@@ -654,7 +654,7 @@
               p.mb-3 Contribuye al seguimiento de las condiciones sanitarias y de bienestar de los animales durante las actividades de recepción.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Golpear o patear a los animales").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Es una práctica prohibida porque puede causar dolor, lesiones y sufrimiento, además de afectar las condiciones de bienestar animal.
             .row(titulo="Arrastrar animales vivos").ajuste-cajaAcordion.ajuste-vineta
@@ -751,7 +751,7 @@
               li.mb-0
                 span.fa-li
                   i.fas.fa-check-circle
-                | #[b Teja:] debe mantenerse libre de acumulación de polvo, residuos orgánicos y nidos de plagas, realizando limpieza periódica que evite el deterioro y la contaminación de las áreas inferiores.
+                | #[b Techos:] debe mantenerse libre de acumulación de polvo, residuos orgánicos y nidos de plagas, realizando limpieza periódica que evite el deterioro y la contaminación de las áreas inferiores.
           p.mb-0 La ejecución sistemática de estas actividades contribuye a reducir la contaminación y fortalece las condiciones de bioseguridad en el área de recepción.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
@@ -808,7 +808,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img79.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Uso de elementos de protección personal").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Contribuye a prevenir la contaminación durante las actividades de recepción y protege al personal frente a los riesgos asociados con el proceso.
             .row(titulo="Lavado y desinfección de manos").ajuste-cajaAcordion.ajuste-vineta

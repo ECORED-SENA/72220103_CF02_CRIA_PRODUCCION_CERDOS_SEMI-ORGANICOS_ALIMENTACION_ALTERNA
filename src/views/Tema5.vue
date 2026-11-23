@@ -64,7 +64,7 @@
             .col
               h4.mb-4 Pódcast
               TarjetaAudio.color-acento-contenido.mb-4(
-                  texto="Protocolos de limpieza, desinfección y vacío sanitario en instalaciones avícolas"
+                  texto="Manejo de residuos orgánicos en el beneficio porcino"
                   :audio="audio1"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
@@ -169,7 +169,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t5/img13.png", alt="" style="width: 270px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Elaboración de harinas").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Puede utilizarse como materia prima en procesos autorizados para la obtención de harinas destinadas a usos permitidos.
             .row(titulo="Producción de fertilizantes").ajuste-cajaAcordion.ajuste-vineta
@@ -358,7 +358,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t5/img27.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Uso eficiente del agua").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Busca reducir el consumo del recurso durante las diferentes operaciones mediante prácticas orientadas a su utilización responsable.
             .row(titulo="Ahorro de energía").ajuste-cajaAcordion.ajuste-vineta

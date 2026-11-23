@@ -96,7 +96,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img9.png", alt="" style="width: 400px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Higiene del personal").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Comprende las prácticas destinadas a evitar que el personal se convierta en una fuente de contaminación durante el beneficio y procesamiento de la carne.
             .row(titulo="Limpieza y desinfección").ajuste-cajaAcordion.ajuste-vineta
@@ -260,7 +260,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img25.png", alt="" style="width: 320px").m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Separación de áreas").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Permite mantener diferenciadas las actividades del proceso y disminuir la transferencia de contaminantes entre áreas con distintas condiciones higiénicas.
             .row(titulo="Limpieza de equipos").ajuste-cajaAcordion.ajuste-vineta
